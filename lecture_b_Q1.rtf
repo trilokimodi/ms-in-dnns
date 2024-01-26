@@ -1,0 +1,270 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh17440\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Output\
+\
+(.venv) (base) soniamodi@Sonias-MacBook-Pro ms-in-dnns % python3 launch_vertex_job.py script --name hello_world_script --path ./lecture_b/hello_world_vertex_ai/hello_world_script.py --requirements asciimatics --args --text1 "hello from" --text2 google\
+/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\
+  warnings.warn(\
+Creating Tensorboard\
+INFO:google.cloud.aiplatform.tensorboard.tensorboard_resource:Creating Tensorboard\
+Create Tensorboard backing LRO: projects/435405752262/locations/europe-west4/tensorboards/225127204810391552/operations/6743264406097887232\
+INFO:google.cloud.aiplatform.tensorboard.tensorboard_resource:Create Tensorboard backing LRO: projects/435405752262/locations/europe-west4/tensorboards/225127204810391552/operations/6743264406097887232\
+Tensorboard created. Resource name: projects/435405752262/locations/europe-west4/tensorboards/225127204810391552\
+INFO:google.cloud.aiplatform.tensorboard.tensorboard_resource:Tensorboard created. Resource name: projects/435405752262/locations/europe-west4/tensorboards/225127204810391552\
+To use this Tensorboard in another session:\
+INFO:google.cloud.aiplatform.tensorboard.tensorboard_resource:To use this Tensorboard in another session:\
+tb = aiplatform.Tensorboard('projects/435405752262/locations/europe-west4/tensorboards/225127204810391552')\
+INFO:google.cloud.aiplatform.tensorboard.tensorboard_resource:tb = aiplatform.Tensorboard('projects/435405752262/locations/europe-west4/tensorboards/225127204810391552')\
+Training script copied to:\
+gs://msdnn-bucket/aiplatform-2024-01-26-11:14:24.471-aiplatform_custom_trainer_script-0.1.tar.gz.\
+INFO:google.cloud.aiplatform.utils.source_utils:Training script copied to:\
+gs://msdnn-bucket/aiplatform-2024-01-26-11:14:24.471-aiplatform_custom_trainer_script-0.1.tar.gz.\
+Creating CustomJob\
+INFO:google.cloud.aiplatform.jobs:Creating CustomJob\
+CustomJob created. Resource name: projects/435405752262/locations/europe-west4/customJobs/2784970869057781760\
+INFO:google.cloud.aiplatform.jobs:CustomJob created. Resource name: projects/435405752262/locations/europe-west4/customJobs/2784970869057781760\
+To use this CustomJob in another session:\
+INFO:google.cloud.aiplatform.jobs:To use this CustomJob in another session:\
+custom_job = aiplatform.CustomJob.get('projects/435405752262/locations/europe-west4/customJobs/2784970869057781760')\
+INFO:google.cloud.aiplatform.jobs:custom_job = aiplatform.CustomJob.get('projects/435405752262/locations/europe-west4/customJobs/2784970869057781760')\
+View Custom Job:\
+https://console.cloud.google.com/ai/platform/locations/europe-west4/training/2784970869057781760?project=435405752262\
+INFO:google.cloud.aiplatform.jobs:View Custom Job:\
+https://console.cloud.google.com/ai/platform/locations/europe-west4/training/2784970869057781760?project=435405752262\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_PENDING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_RUNNING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_RUNNING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_RUNNING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_RUNNING\
+CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_RUNNING\
+INFO:google.cloud.aiplatform.jobs:CustomJob projects/435405752262/locations/europe-west4/customJobs/2784970869057781760 current state:\
+JobState.JOB_STATE_RUNNING\
+^CTraceback (most recent call last):\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/launch_vertex_job.py", line 225, in <module>\
+    args.func(args)\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/launch_vertex_job.py", line 96, in launch_script_job\
+    job.run()\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/jobs.py", line 1714, in run\
+    self._run(\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/base.py", line 817, in wrapper\
+    return method(*args, **kwargs)\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/jobs.py", line 1815, in _run\
+    self._block_until_complete()\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/jobs.py", line 1089, in _block_until_complete\
+    while self.state not in _JOB_COMPLETE_STATES:\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/jobs.py", line 170, in state\
+    self._sync_gca_resource()\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/base.py", line 653, in _sync_gca_resource\
+    self._gca_resource = self._get_gca_resource(resource_name=self.resource_name)\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform/base.py", line 646, in _get_gca_resource\
+    return getattr(self.api_client, self._getter_method)(\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/cloud/aiplatform_v1/services/job_service/client.py", line 1015, in get_custom_job\
+    response = rpc(\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__\
+    return wrapped_func(*args, **kwargs)\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/api_core/retry.py", line 372, in retry_wrapped_func\
+    return retry_target(\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/api_core/retry.py", line 207, in retry_target\
+    result = target()\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/google/api_core/grpc_helpers.py", line 79, in error_remapped_callable\
+    return callable_(*args, **kwargs)\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/grpc/_channel.py", line 1157, in __call__\
+    ) = self._blocking(\
+  File "/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/grpc/_channel.py", line 1141, in _blocking\
+    event = call.next_event()\
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 366, in grpc._cython.cygrpc.SegregatedCall.next_event\
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 187, in grpc._cython.cygrpc._next_call_event\
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 181, in grpc._cython.cygrpc._next_call_event\
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 78, in grpc._cython.cygrpc._latent_event\
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 61, in grpc._cython.cygrpc._internal_latent_event\
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 42, in grpc._cython.cygrpc._next\
+KeyboardInterrupt\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+(.venv) (base) soniamodi@Sonias-MacBook-Pro ms-in-dnns % python3 launch_vertex_job.py package --name hello_world_package --directory ./lecture_b/hello_world_vertex_ai --task-module hello_world.main --args --text1 "hello from" --text2 google\
+/Users/soniamodi/Documents/trilokimodi/Github/ms-in-dnns/.venv/lib/python3.9/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020\
+  warnings.warn(\
+Creating source distribuion\
+running sdist\
+running egg_info\
+creating hello_world.egg-info\
+writing hello_world.egg-info/PKG-INFO\
+writing dependency_links to hello_world.egg-info/dependency_links.txt\
+writing requirements to hello_world.egg-info/requires.txt\
+writing top-level names to hello_world.egg-info/top_level.txt\
+writing manifest file 'hello_world.egg-info/SOURCES.txt'\
+reading manifest file 'hello_world.egg-info/SOURCES.txt'\
+writing manifest file 'hello_world.egg-info/SOURCES.txt'\
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md\
+\
+running check\
+warning: check: missing required meta-data: url\
+\
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) should be supplied\
+\
+creating hello-world-0.1\
+creating hello-world-0.1/hello_world\
+creating hello-world-0.1/hello_world.egg-info\
+copying files to hello-world-0.1...\
+copying setup.py -> hello-world-0.1\
+copying hello_world/__init__.py -> hello-world-0.1/hello_world\
+copying hello_world/main.py -> hello-world-0.1/hello_world\
+copying hello_world/utils.py -> hello-world-0.1/hello_world\
+copying hello_world.egg-info/PKG-INFO -> hello-world-0.1/hello_world.egg-info\
+copying hello_world.egg-info/SOURCES.txt -> hello-world-0.1/hello_world.egg-info\
+copying hello_world.egg-info/dependency_links.txt -> hello-world-0.1/hello_world.egg-info\
+copying hello_world.egg-info/requires.txt -> hello-world-0.1/hello_world.egg-info\
+copying hello_world.egg-info/top_level.txt -> hello-world-0.1/hello_world.egg-info\
+Writing hello-world-0.1/setup.cfg\
+creating dist\
+creating dist/2024-01-26_11:20:10\
+Creating tar archive\
+removing 'hello-world-0.1' (and everything under it)\
+Custom Training Python Package is uploaded to: gs://msdnn-bucket/custom-training-python-package/hello_world_package/2024-01-26_11:20:10/hello-world-0.1.tar.gz\
+Training Output directory:\
+gs://msdnn-bucket/aiplatform-custom-training-2024-01-26-11:20:40.554 \
+View Training:\
+https://console.cloud.google.com/ai/platform/locations/europe-west4/training/4303809843388481536?project=435405752262\
+CustomPythonPackageTrainingJob projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536 current state:\
+PipelineState.PIPELINE_STATE_RUNNING\
+View backing custom job:\
+https://console.cloud.google.com/ai/platform/locations/europe-west4/training/3936379445664808960?project=435405752262\
+CustomPythonPackageTrainingJob projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536 current state:\
+PipelineState.PIPELINE_STATE_RUNNING\
+CustomPythonPackageTrainingJob projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536 current state:\
+PipelineState.PIPELINE_STATE_RUNNING\
+CustomPythonPackageTrainingJob projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536 current state:\
+PipelineState.PIPELINE_STATE_RUNNING\
+CustomPythonPackageTrainingJob projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536 current state:\
+PipelineState.PIPELINE_STATE_RUNNING\
+CustomPythonPackageTrainingJob run completed. Resource name: projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536\
+Training did not produce a Managed Model returning None. Training Pipeline projects/435405752262/locations/europe-west4/trainingPipelines/4303809843388481536 is not configured to upload a Model. Create the Training Pipeline with model_serving_container_image_uri and model_display_name passed in. Ensure that your training script saves to model to os.environ['AIP_MODEL_DIR'].\
+\
+\
+\
+\
+Below content was present inside bucket in a log.txt file\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf0 \expnd0\expndtw0\kerning0
+Hello World\
+Found Lightning version 2.1.3\
+Got the following texts from the command line\
+hello from\
+google\
+no cuda devices found}
